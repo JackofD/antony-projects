@@ -9,4 +9,23 @@ html {
 
 body {
   margin: 0;
+  scroll-behavior: smooth;
+  padding: 0 1rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+  }
 }

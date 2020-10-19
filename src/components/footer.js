@@ -15,12 +15,4 @@ const Footer = () => (
   </footer>
 )
 
-Footer.propTypes = {
-  
-}
-
-Footer.defaultProps = {
-  
-}
-
 export default Footer
