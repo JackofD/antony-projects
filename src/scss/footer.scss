@@ -14,7 +14,15 @@
     list-style: none;
     padding: 1rem;
     margin: 0;
-    line-height: 1.8;
-    font-size: 1.4rem
+    
+  }
+}
+
+@media(min-width: 768px) {
+  .site-footer {
+    ul {
+      line-height: 1.8;
+      font-size: 1.4rem
+    }
   }
 }

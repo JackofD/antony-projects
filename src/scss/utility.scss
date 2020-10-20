@@ -30,18 +30,14 @@
     }
   }
 }
-h2.background-brick {
+h1.background-brick, h2.background-brick, h3.background-brick, h4.background-brick {
   display: block;
   padding: 1rem;
   margin: 2rem 0;
-
-  // &:after {
-  //   transform: rotate(-2deg);
-  // }
 }
 
 @media(min-width: 768px) {
-  h2.background-brick {
+  h1.background-brick, h2.background-brick, h3.background-brick, h4.background-brick {
     display: inline-block;
     align-self: center;
     padding: 1rem 5rem;

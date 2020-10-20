@@ -22,25 +22,29 @@ const IndexPage = () => {
           <section className="flex-row">
             <section className="section">
               <MyImg className="section-img" src="photos/image1.jpg" />
-              <section className="section-description">
-                We're experts at doing repairs to roofs. We know there's nothing worse
-                than a leaky roof or ceiling in winter.
-                We'll make sure you stay warm and dry during those cold and rainy months.
+              <section className="section-heading">
+                <h3 className="background-brick">Need repairs done?</h3>
               </section>
             </section>
             <section className="section">
               <MyImg className="section-img" src="photos/image6.jpg" />
-              <section className="section-description">
-                Need to do some upgrading? We've got you covered.
-                Our skills in home improvement are top-notch and will leave nothing to be desired.
+              <section className="section-heading">
+                <h3 className="background-brick">Want to do some upgrading?</h3>
               </section>
             </section>
           </section>
-          <section>
-            <p>
-              Apart from our specialties, our skills also cover brickwork, plastering, painting, skimming,
-              tiling and general home-improvement
-            </p>
+          <section className="details">
+            <h3>Whatever you need, we've got you covered.</h3>
+          <p>
+            We're experts at doing repairs to roofs. We know there's nothing worse
+            than a leaky roof or ceiling in winter.
+            We'll make sure you stay warm and dry during those cold and rainy months.
+          </p>
+          <p>
+            Our skills in home improvement are top-notch and will leave nothing to be desired.
+            Our skills also cover brickwork, plastering, painting, skimming,
+            tiling and general home-improvement.
+          </p>
           </section>
         </section>
       </section>
