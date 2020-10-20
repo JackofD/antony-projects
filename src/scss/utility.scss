@@ -18,14 +18,44 @@
     left: 0;
     z-index: -1;
   }
+
+  &-large:after {
+    background-image: url("../images/textures/grey-brick-texture-large.png");
+    background-size: 25%;
+  }
+  &-light {
+    color: $colour-dark;
+    &:after {
+      background-color: white;
+    }
+  }
 }
 h2.background-brick {
-  display: inline-block;
-  align-self: center;
-  padding: 1rem 5rem;
-  margin-left: 5rem;
+  display: block;
+  padding: 1rem;
+  margin: 2rem 0;
 
   &:after {
     transform: rotate(-2deg);
   }
+}
+
+@media(min-width: 768px) {
+  h2.background-brick {
+    display: inline-block;
+    align-self: center;
+    padding: 1rem 5rem;
+    margin: 2rem 1rem;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.flex-column-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

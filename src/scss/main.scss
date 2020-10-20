@@ -10,7 +10,6 @@ html {
 body {
   margin: 0;
   scroll-behavior: smooth;
-  padding: 0 1rem;
 }
 
 img {
@@ -24,6 +23,12 @@ img {
 }
 
 @media (min-width: 768px) {
+  body {
+    margin: 0;
+    scroll-behavior: smooth;
+    padding: 0 1rem;
+  }
+  
   .flex-row {
     display: flex;
     flex-direction: row;

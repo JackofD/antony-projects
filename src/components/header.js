@@ -8,10 +8,10 @@ import logo from "../images/antony-logo-single.svg"
 const Header = ({classes}) => (
   <header className={classes ? classes : ''}>
     <div className="logo-section">
-      <img className="logo" src={logo} alt="main logo" />
       <div className="site-name">
         <h2>AK Projects</h2>
       </div>
+      <img className="logo" src={logo} alt="main logo" />
     </div>
     <nav className="nav-menu">
       <ul>

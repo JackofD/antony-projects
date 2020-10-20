@@ -1,0 +1,21 @@
+.site-footer {
+  margin-top: 2rem;
+  padding: 2rem;
+  max-width: 1200px;
+
+  .contact-us {
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+  }
+  .contact-us, a {
+    color: inherit;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: 1.8;
+    font-size: 1.2rem
+  }
+  a {text-decoration: none;}
+}
