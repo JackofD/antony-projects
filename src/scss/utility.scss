@@ -1,0 +1,31 @@
+@import 'variables.scss';
+
+.background-brick {
+  position: relative;
+  z-index: 1;
+  color: white;
+
+  &:after {
+    content: "";
+    display: block;
+    position: absolute;
+    background-image: url("../images/textures/grey-brick-texture.png");
+    background-size: 75%;
+    background-color: $colour-dark;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+  }
+}
+h2.background-brick {
+  display: inline-block;
+  align-self: center;
+  padding: 1rem 5rem;
+  margin-left: 5rem;
+
+  &:after {
+    transform: rotate(-2deg);
+  }
+}

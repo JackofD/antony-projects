@@ -18,7 +18,7 @@ const IndexPage = () => {
           {/* <div className="hero-text">The text that may or may not stay</div> */}
         </section>
         <section className="what-we-do-section">
-          <h2>What we do</h2>
+          <h2 className="background-brick">What we do</h2>
           <section className="flex-row">
             <section className="section">
               <MyImg className="section-img" src="photos/image1.jpg" />
