@@ -10,9 +10,9 @@ const Footer = () => (
       <h2 className="background-brick background-brick-light">Contact us</h2>
       <div>
         <ul>
-          <li><a href="#/">Email: anytonykanyongo@gmail.com</a></li>
-          <li><a href="#/">Whatsapp: 083 558 8524</a></li>
-          <li><a href="#/">Social: Facebook</a></li>
+          <li>Email: <a href="mailto:anytonykanyongo@gmail.com">anytonykanyongo@gmail.com</a></li>
+          <li>Cell: <a href="tel:083-558-8524">083 558 8524</a></li>
+          <li>Social: <a href="#/">Facebook</a></li>
         </ul>
       </div>
     </section>

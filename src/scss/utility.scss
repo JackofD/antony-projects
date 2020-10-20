@@ -35,9 +35,9 @@ h2.background-brick {
   padding: 1rem;
   margin: 2rem 0;
 
-  &:after {
-    transform: rotate(-2deg);
-  }
+  // &:after {
+  //   transform: rotate(-2deg);
+  // }
 }
 
 @media(min-width: 768px) {
