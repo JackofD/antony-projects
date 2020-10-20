@@ -15,8 +15,13 @@ const IndexPage = () => {
       <section>
         <section className="hero">
           <HeroImage />
-          {/* <div className="hero-text">The text that may or may not stay</div> */}
+          <blockquote className="hero-text">
+            <div>Without integrity, a building will collapse. The same is true for society.</div>
+            <br />
+            <div className="text-right"> - Unknown</div>
+          </blockquote>
         </section>
+        
         <section className="what-we-do-section">
           <h2 className="background-brick">What we do</h2>
           <section className="flex-row">
