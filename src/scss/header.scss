@@ -81,6 +81,12 @@ nav {
   .main-header {
     .logo-section {
       flex-direction: row;
+      
     }
+  }
+}
+@media(min-width: 1024px) {
+  .main-header h2 {
+    font-size: 2.5rem;
   }
 }
