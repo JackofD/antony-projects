@@ -16,6 +16,8 @@ img {
   max-width: 100%;
 }
 
+hr {border-color: white;}
+
 .flex-row {
   display: flex;
   flex-direction: column;
@@ -28,7 +30,7 @@ img {
     scroll-behavior: smooth;
     padding: 0 1rem;
   }
-  
+
   .flex-row {
     display: flex;
     flex-direction: row;

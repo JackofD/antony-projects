@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Antony Kanyongo Projects`,
     description: `Company contact site for Antony Kanyongo projects`,
-    author: `DeshenP`,
+    author: `Web Dev`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -23,10 +23,10 @@ module.exports = {
         name: `Antony Kanyongo Projects`,
         short_name: `AK Projects`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#005544`,
+        theme_color: `#005544`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/ak-icon-large.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
