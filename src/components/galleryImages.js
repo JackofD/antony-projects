@@ -31,7 +31,6 @@ const GalleryImages = () => {
     <>
       {
         theImagas.map((image, index) => {
-          console.log(image.node)
           return (
             <div key={`image-${index}`} className="gallery-image">
               <Img fluid={image.node.childImageSharp.fluid} />

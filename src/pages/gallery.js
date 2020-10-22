@@ -12,7 +12,7 @@ const GalleryPage = () => {
   return (
     <Layout>
       <SEO title="Gallery" />
-      <section>
+      <section className="image-gallery">
         <h2>Take a look at some of our work</h2>
         <section className="gallery-container">
           <GalleryImages />

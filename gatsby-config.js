@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Antony Kanyongo Projects`,
-    description: `Company contact site for Antony Kanyongo projects`,
-    author: `Web Dev`,
+    description: `For all your residential and business construction and improvement needs`,
+    author: `AK Projects`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

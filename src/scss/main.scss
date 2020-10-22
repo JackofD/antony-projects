@@ -2,6 +2,7 @@
 
 html {
   font-family: 'Open Sans', sans-serif;
+  scroll-behavior: smooth;
 }
 *, *::before, *::after {
   box-sizing: border-box;
@@ -9,7 +10,6 @@ html {
 
 body {
   margin: 0;
-  scroll-behavior: smooth;
 }
 
 img {
