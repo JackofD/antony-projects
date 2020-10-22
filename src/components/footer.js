@@ -12,7 +12,7 @@ const Footer = () => (
         <ul>
           <li><a href="mailto:anytonykanyongo@gmail.com">anytonykanyongo@gmail.com</a></li>
           <li><a href="tel:083-558-8524">083 558 8524</a></li>
-          <li>Social: <a href="#/">Facebook</a></li>
+          {/* <li>Social: <a href="#/">Facebook</a></li> */}
         </ul>
       </div>
     </section>

@@ -25,7 +25,7 @@ const MyImg = function (props) {
         }
       }
     `}
-    render={({images}) => renderImage(images.edges.find(image => image.node.relativePath === props.src && image.node.relativeDirectory === props.directory))}
+    render={({images}) => renderImage(images.edges.find(image => image.node.relativePath === props.src))}
     />
 }
 

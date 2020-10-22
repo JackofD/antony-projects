@@ -15,9 +15,9 @@ const Header = ({classes}) => (
     </div>
     <nav className="nav-menu">
       <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/#">Gallery</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/gallery">Gallery</Link></li>
+        <li><Link to="#contact">Contact</Link></li>
       </ul>
     </nav>
   </header>
