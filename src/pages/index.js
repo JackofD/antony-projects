@@ -18,7 +18,7 @@ const IndexPage = () => {
         <section className="hero">
           <HeroImage />
           <blockquote className="hero-text">
-            <div>"Without integrity, a building will collapse. The same is true for relationships, business or personal."</div>
+            <div>"Without integrity, a building will collapse. The same is true for relationships, both business and personal."</div>
             <br />
             <div className="text-right"> - Unknown</div>
           </blockquote>
@@ -28,7 +28,7 @@ const IndexPage = () => {
           <h2 className="heading background-brick">Who are we?</h2>
           <p>
             AK Projects is a local construction and improvement business. We're based in the West Coast
-            of the Western Cape. We've been in the industry for a long time and have the experience to prove it.
+            of the Western Cape. We have been in the industry for a long time, and have the experience to prove it.
             We work on small to medium sized projects for both home and businesses, handling contruction, renovations and repairs.
           </p>
         </section>
@@ -53,8 +53,7 @@ const IndexPage = () => {
             <h3 className="heading">Whatever you need, we've got you covered.</h3>
             <p>
               We're experts at doing repairs to roofs and ceilings. We know there's nothing worse
-              than a leaky roof or ceiling in winter.
-              We'll make sure you stay warm and dry during those cold and rainy months.
+              than a leaky roof or ceiling in winter, so we'll make sure you stay warm and dry during those cold and rainy months.
             </p>
             <section>
               <p>
