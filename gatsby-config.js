@@ -3,6 +3,7 @@ module.exports = {
     title: `Antony Kanyongo Projects`,
     description: `For all your residential and business construction and improvement needs`,
     author: `AK Projects`,
+    siteUrl: `https://www.ak-projects.co.za`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -16,6 +17,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-sass`,
+    `gatsby-plugin-sitemap`,
 
     {
       resolve: `gatsby-plugin-manifest`,
