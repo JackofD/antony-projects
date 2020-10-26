@@ -6,7 +6,7 @@ import "../scss/bio.scss";
 
 const Bio = () => {
   return (
-    <section className="site-bio">
+    <article className="site-bio">
       <h3 className="heading background-brick">Meet the guy running this operation</h3>
       <section className="site-bio-details">
         <div className="bio-image-container">
@@ -31,7 +31,7 @@ const Bio = () => {
         </div>
 
       </section>
-    </section>
+    </article>
   );
 }
 

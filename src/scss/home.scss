@@ -26,6 +26,10 @@
   }
 }
 
+.skill-list {
+  line-height: 1.5;
+}
+
 .hero-text {
   font-size: 1.2rem;
   padding: 0 1rem;
@@ -59,10 +63,24 @@
     display: flex;
     flex-direction: column;
   }
+
+  .skill-list {
+    line-height: 2;
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-count: 3;
+  }
 }
 
 @media (min-width: 1024px) {
   .hero-text {
     font-size: 2rem;
+  }
+
+  .skill-list {
+    width: 80%;
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-count: 3;
   }
 }

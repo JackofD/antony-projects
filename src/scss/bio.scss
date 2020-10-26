@@ -11,23 +11,11 @@
   .heading {align-self: flex-start;}
 }
 .site-bio-details {
-  
   blockquote {
-    color: $colour-dark
+    color: $colour-dark;
+    margin: 1rem;
   }
 }
-
-.bio-image-contianer {
- img {
-   width: 100%;
-   max-width: 100%;
-   height: auto;
- }
-}
-
-// .bio-text-container {
-//   align-self: start;
-// }
 
 @media (min-width: 768px) {
   .site-bio {
@@ -38,12 +26,13 @@
     padding: 1rem;
     display: grid;
     grid-template-columns: [image] 1fr 3fr;
-    gap: 1.5rem;
+    gap: 2rem;
     justify-items: stretch;
-    align-items: center;
+    align-items: start;
 
     blockquote {
       font-size: 1.2rem;
+      margin: 1em 40px;
     }
   }
 }

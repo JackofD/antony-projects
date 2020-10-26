@@ -47,13 +47,27 @@ const IndexPage = () => {
               than a leaky roof or ceiling in winter.
               We'll make sure you stay warm and dry during those cold and rainy months.
             </p>
-            <p>
-              Our skills in home improvement are top-notch and will leave nothing to be desired.
-              Our skills also cover brickwork, plastering, painting, skimming,
-              tiling, cladding, artificial lawns and general home-improvement.
-            </p>
+            <section>
+              <p>
+                Our skills in home improvement are top-notch and will leave nothing to be desired.
+              </p>
+              <h4>Our skills cover:</h4>
+              <ul className="skill-list">
+                <li>brickwork</li>
+                <li>plastering</li>
+                <li>painting</li>
+                <li>skimming</li>
+                <li>tiling</li>
+                <li>cladding</li>
+                <li>artificial lawns</li>
+                <li>braai places/pits</li>
+                <li>roof and ceiling repairs</li>
+                <li>general home improvement</li>
+              </ul>
+            </section>
           </section>
         </section>
+        <br />
         <Bio />
       </section>
     </Layout>
