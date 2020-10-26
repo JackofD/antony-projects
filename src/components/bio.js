@@ -21,12 +21,12 @@ const Bio = () => {
           </p>
           <p>
             Antony prides himself on integrity and will go the extra mile for his client.
-            He gives good advice on the work that needs to be done and is always fair on his quotes.
+            He gives good advice on the work that needs to be done and is always fair in his quotes.
             The workmanship of his team is always up to standard and they will gladly sort out any issues that may pop up.
           </p>
           <blockquote className="">
             "I love this industry because these skills that I've learned and honed during my lifetime
-            are always relevant and can be taken anywhere."
+            are always relevant and can be used anywhere in the world."
           </blockquote>
         </div>
 
@@ -41,7 +41,7 @@ export const BioImage = () => {
     file(relativePath: {eq: "antony.png"}) {
       id
       childImageSharp {
-        fluid(maxWidth: 600) {
+        fluid(maxWidth: 450) {
           ...GatsbyImageSharpFluid
         }
       }

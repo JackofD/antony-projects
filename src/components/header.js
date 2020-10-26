@@ -9,9 +9,9 @@ const Header = ({classes}) => (
   <header className={classes ? classes : ''}>
     <div className="logo-section">
       <div className="site-name">
-        <h2 className="heading">AK Projects</h2>
+        <Link to="/"><h2 className="heading">AK Projects</h2></Link>
       </div>
-      <img className="logo" src={logo} alt="main logo" />
+      <Link to="/"><img className="logo" src={logo} alt="main logo" /></Link>
     </div>
     <nav className="nav-menu">
       <ul>

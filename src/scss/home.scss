@@ -2,11 +2,24 @@
   position: relative;
 }
 
+.who-are-we {
+  display: flex;
+  flex-direction: column;
+
+  .heading {
+    text-align: center;
+  }
+  @media (min-width: 768px) {
+    width: 90%;
+  }
+}
+
 .what-we-do-section {
   display: flex;
   flex-direction: column;
   h2 {
     text-align: center;
+    align-self: center;
   }
 
   .flex-row {

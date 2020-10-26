@@ -59,3 +59,11 @@ h1.background-brick, h2.background-brick, h3.background-brick, h4.background-bri
   justify-content: center;
   align-items: center;
 }
+
+.layout-centered {
+  width: 80vw;
+  margin: 0 auto;
+  @media (min-width: 768px) {
+    width: auto;
+  }
+}
