@@ -1,10 +1,12 @@
 import React from "react";
-import { Link, useStaticQuery, graphql } from "gatsby";
+import { useStaticQuery, graphql } from "gatsby";
 
 import Layout from "../components/layout"
 import Img from "gatsby-image"
 import SEO from "../components/seo"
 import MyImg from "../components/ImageFilter"
+import Bio from "../components/bio"
+
 import "../scss/main.scss"
 import "../scss/home.scss"
 
@@ -16,7 +18,7 @@ const IndexPage = () => {
         <section className="hero">
           <HeroImage />
           <blockquote className="hero-text">
-            <div>Without integrity, a building will collapse. The same is true for society.</div>
+            <div>"Without integrity, a building will collapse. The same is true for society."</div>
             <br />
             <div className="text-right"> - Unknown</div>
           </blockquote>
@@ -40,18 +42,19 @@ const IndexPage = () => {
           </section>
           <section className="details">
             <h3>Whatever you need, we've got you covered.</h3>
-          <p>
-            We're experts at doing repairs to roofs. We know there's nothing worse
-            than a leaky roof or ceiling in winter.
-            We'll make sure you stay warm and dry during those cold and rainy months.
-          </p>
-          <p>
-            Our skills in home improvement are top-notch and will leave nothing to be desired.
-            Our skills also cover brickwork, plastering, painting, skimming,
-            tiling and general home-improvement.
-          </p>
+            <p>
+              We're experts at doing repairs to roofs. We know there's nothing worse
+              than a leaky roof or ceiling in winter.
+              We'll make sure you stay warm and dry during those cold and rainy months.
+            </p>
+            <p>
+              Our skills in home improvement are top-notch and will leave nothing to be desired.
+              Our skills also cover brickwork, plastering, painting, skimming,
+              tiling, cladding, artificial lawns and general home-improvement.
+            </p>
           </section>
         </section>
+        <Bio />
       </section>
     </Layout>
   )

@@ -1,0 +1,49 @@
+@import 'variables.scss';
+
+.site-bio {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  justify-content: center;
+  align-content: center;
+  margin: 0 auto;
+
+  .heading {align-self: flex-start;}
+}
+.site-bio-details {
+  
+  blockquote {
+    color: $colour-dark
+  }
+}
+
+.bio-image-contianer {
+ img {
+   width: 100%;
+   max-width: 100%;
+   height: auto;
+ }
+}
+
+// .bio-text-container {
+//   align-self: start;
+// }
+
+@media (min-width: 768px) {
+  .site-bio {
+    margin: initial;
+    width: initial;
+  }
+  .site-bio-details {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: [image] 1fr 3fr;
+    gap: 1.5rem;
+    justify-items: stretch;
+    align-items: center;
+
+    blockquote {
+      font-size: 1.2rem;
+    }
+  }
+}

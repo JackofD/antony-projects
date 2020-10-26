@@ -7,7 +7,7 @@ import "../scss/gallery.scss";
 const GalleryImages = () => {
   const imageData = useStaticQuery(graphql`
     query {
-      images: allFile(filter: {ext: {regex: "/jpg|png/"}, sourceInstanceName: {eq: "images"}, relativeDirectory: {eq: "photos"}}) {
+      images: allFile(filter: {ext: {regex: "/jpeg|jpg|png/"}, sourceInstanceName: {eq: "images"}, relativeDirectory: {eq: "photos"}}) {
         edges {
           node {
             name
