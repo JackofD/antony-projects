@@ -25,23 +25,23 @@ const IndexPage = () => {
         </section>
         
         <section className="what-we-do-section">
-          <h2 className="background-brick">What we do</h2>
+          <h2 className="heading background-brick">What we do</h2>
           <section className="flex-row">
             <section className="section">
               <MyImg className="section-img" src="photos/image1.jpg" />
               <section className="section-heading">
-                <h3 className="background-brick">Need repairs done?</h3>
+                <h3 className="heading background-brick">Need repairs done?</h3>
               </section>
             </section>
             <section className="section">
               <MyImg className="section-img" src="photos/image6.jpg" />
               <section className="section-heading">
-                <h3 className="background-brick">Want to do some upgrading?</h3>
+                <h3 className="heading background-brick">Want to do some upgrading?</h3>
               </section>
             </section>
           </section>
           <section className="details">
-            <h3>Whatever you need, we've got you covered.</h3>
+            <h3 className="heading">Whatever you need, we've got you covered.</h3>
             <p>
               We're experts at doing repairs to roofs. We know there's nothing worse
               than a leaky roof or ceiling in winter.
@@ -49,9 +49,9 @@ const IndexPage = () => {
             </p>
             <section>
               <p>
-                Our skills in home improvement are top-notch and will leave nothing to be desired.
+                Our skills in home improvement and construction are top-notch and will leave nothing to be desired.
               </p>
-              <h4>Our skills cover:</h4>
+              <h4 className="heading">Our skills cover:</h4>
               <ul className="skill-list">
                 <li>brickwork</li>
                 <li>plastering</li>

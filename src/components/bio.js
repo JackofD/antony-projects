@@ -13,9 +13,9 @@ const Bio = () => {
           <BioImage />
         </div>
         <div className="bio-text-container">
-          <h3>Antony Kanyongo</h3>
+          <h3 className="heading">Antony Kanyongo</h3>
           <p>
-            Antony has been in the construction and building industy for over 30 years.
+            Antony has been in the construction and building industry for over 30 years.
             He learned his father's trade, and eventually took over for him carrying on the family business.
             He's the head of a family of 5, including his wife, daughter and two sons who he has been teaching and passing on his skills to.
           </p>
@@ -25,7 +25,7 @@ const Bio = () => {
             The workmanship of his team is always up to standard and they will gladly sort out any issues that may pop up.
           </p>
           <blockquote className="">
-            "I love this industry because these skills that I've learned and honed during my life time
+            "I love this industry because these skills that I've learned and honed during my lifetime
             are always relevant and can be taken anywhere."
           </blockquote>
         </div>

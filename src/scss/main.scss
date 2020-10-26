@@ -1,5 +1,14 @@
 @import 'variables.scss';
 
+@font-face {
+  font-family: "MerriReg";
+  src: url('../assets/fonts/Merriweather-Regular.otf');
+}
+@font-face {
+  font-family: "MerriBold";
+  src: url('../assets/fonts/Merriweather-Bold.otf');
+}
+
 html {
   font-family: 'Open Sans', sans-serif;
   scroll-behavior: smooth;
@@ -22,6 +31,14 @@ hr {border-color: white;}
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.heading {
+  font-family: 'MerriBold', 'Times New Roman', Times, serif;
+  font-weight: 600;
+}
+blockquote {
+  font-family: 'MerriReg', 'Times New Roman', Times, serif;
 }
 
 @media (min-width: 768px) {

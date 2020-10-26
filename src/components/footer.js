@@ -7,7 +7,7 @@ import "../scss/footer.scss"
 const Footer = () => (
   <footer className="site-footer background-brick background-brick-large">
     <section id="contact" className="contact-us">
-      <h2 className="background-brick background-brick-light">Contact us @</h2>
+      <h2 className="heading background-brick background-brick-light">Contact us @</h2>
       <div>
         <ul>
           <li><a href="mailto:anytonykanyongo@gmail.com">anytonykanyongo@gmail.com</a></li>

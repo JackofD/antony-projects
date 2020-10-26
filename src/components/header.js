@@ -9,7 +9,7 @@ const Header = ({classes}) => (
   <header className={classes ? classes : ''}>
     <div className="logo-section">
       <div className="site-name">
-        <h2>AK Projects</h2>
+        <h2 className="heading">AK Projects</h2>
       </div>
       <img className="logo" src={logo} alt="main logo" />
     </div>
